@@ -1,5 +1,5 @@
-for i in range(6): #for loop that iterates 6 times
-    for j in range(i): #for loops that iterates through the range of i
+for i in range(5): #for loop that iterates 5 times
+    for j in range(i+1): #for loops that iterates through the range of i
         print('*', end=' ') #prints * in line
     print() #prints new line
 count = 4 #count variable 
